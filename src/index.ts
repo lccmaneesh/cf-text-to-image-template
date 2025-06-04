@@ -75,8 +75,8 @@ export default {
     // If a prompt is provided, call the AI binding to generate an image
     const inputs = { prompt };
     const aiResponse = await env.AI.run(
-      //"@cf/stabilityai/stable-diffusion-xl-base-1.0",
-      "@cf/lykon/dreamshaper-8-lcm",
+      "@cf/stabilityai/stable-diffusion-xl-base-1.0",
+     // "@cf/lykon/dreamshaper-8-lcm",
       inputs
     );
 
